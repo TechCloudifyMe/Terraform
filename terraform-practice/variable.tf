@@ -31,3 +31,9 @@ variable "region" {
   type    = string
  # enter value while running commands
 }
+
+variable "key_name" {
+  type    = string
+  default = "awsdevops"
+}
+
