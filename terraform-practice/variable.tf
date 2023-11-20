@@ -21,6 +21,10 @@ variable "instance_count" {
 }
 
 variable "availability_zones " {
-  type    = num
-  default = "1"
+  type    = list(string)
+  default = ["us-east-1a","us-east-1b","us-east-1c"]
+}
+variable "region" {
+  type    = string
+ # enter value while running commands
 }
