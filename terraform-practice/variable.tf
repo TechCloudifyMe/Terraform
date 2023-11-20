@@ -19,3 +19,8 @@ variable "instance_count" {
   type    = num
   default = "1"
 }
+
+variable "availability_zones " {
+  type    = num
+  default = "1"
+}
