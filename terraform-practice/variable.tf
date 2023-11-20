@@ -7,7 +7,7 @@ variable "<key>" {
 
 variable "ami_id" {
   type    = string
-  default = "ami-0533f2ba8a1995cf9"
+  default = "ami-0533f2ba8a1995cf9" # based on region ami id will change
 }
 
 variable "instance_type" {
