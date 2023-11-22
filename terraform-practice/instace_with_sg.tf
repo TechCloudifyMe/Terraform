@@ -9,8 +9,8 @@ resource "aws_instance" "web" {
   tags = {
     Name = "HelloWorld"
   }
+depends_on = [
+    aws_security_group.allow_ssh
+  ]
 }
 
-output "ip" {
-  value = aws_instance.web.*.public_ip
-}
