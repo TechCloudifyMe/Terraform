@@ -16,8 +16,8 @@ terraform import <resoure_type>.<resource_name> <service_id_in_cloud>    ## Reso
 terraform apply -auto-approve                                            ## if you don't want to provide "yes" while running
 terraform destroy -auto-approve                                          ## if you don't want to provide "yes" while running
 
-terraform state list
-
+terraform state list                       ## gives the information of list resources created by terrform configuration
+terraform state show <RESOURCE_TYPE>.<NAME> ## give info of specific resource
 terraform destroy -target RESOURCE_TYPE.NAME
 terraform destroy -target aws_instance.example[0] -auto-approve
 
