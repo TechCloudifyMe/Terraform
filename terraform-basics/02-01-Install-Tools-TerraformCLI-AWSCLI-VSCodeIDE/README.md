@@ -15,13 +15,7 @@ AWS Secret Access Key [None]: WL9G9Tl8lGm7w9t7B3NEDny1+w3N/K5F3HWtdFH/
 Default region name [None]: us-east-1
 Default output format [None]: json
 
-# Verify if we are able list S3 buckets
-aws s3 ls
-```
-- Verify the AWS Credentials Profile
-```
-cat $HOME/.aws/credentials 
-```
+
 
 ##  WindowsOS: Terraform & AWS CLI Install
 - [Download Terraform](https://www.terraform.io/downloads.html)
