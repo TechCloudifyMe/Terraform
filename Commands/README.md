@@ -10,7 +10,7 @@ terraform plan
 terraform apply
 terraform destroy
 
-terraform refresh                                                        ## To refresh statefile, if any changes done manually
+terraform refresh                                                        ## To refresh statefile, if any changes done manually in existing resources
 terraform import <resoure_type>.<resource_name> <service_id_in_cloud>    ## Resource created manually, then wants to manage with terraform
 
 terraform apply -auto-approve                                            ## if you don't want to provide "yes" while running
