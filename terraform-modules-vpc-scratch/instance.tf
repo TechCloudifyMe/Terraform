@@ -11,7 +11,7 @@ resource "aws_instance" "example" {
   key_name = "awsdevops"
   subnet_id = module.vpc.Public_Subnet_id[0]
   associate_public_ip_address = true
-  vpc_security_group_ids = aws_security_group.vpc-ssh.id
+  vpc_security_group_ids = [aws_security_group.vpc-ssh.id]
   tags = {
    Name = "ec2"
  }
