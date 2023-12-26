@@ -22,4 +22,5 @@ terraform destroy -target RESOURCE_TYPE.NAME
 terraform destroy -target aws_instance.example[0] -auto-approve
 
 terraform state rm <resource_to_be_deleted>  ## it will delete the resource details from statefile only
+terraform apply -replace <resource_to_be_recreated> --auto-approve
 ```

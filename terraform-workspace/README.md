@@ -290,3 +290,4 @@ Go to S3 Bucket and delete files
 ## References
 - [Terraform Workspaces](https://www.terraform.io/docs/language/state/workspaces.html)
 - [Managing Workspaces](https://www.terraform.io/docs/cli/workspaces/index.html)
+- [reference](https://spacelift.io/blog/terraform-workspaces)
